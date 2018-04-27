@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro');
+* {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px 0px 40px 0px;
+}
+
+header {
+  text-align: center;
+  padding-top: 30px;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-name h1 {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 35px;
+}
+
+.header-portrait {
+  max-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-portrait img {
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+.upper-left-column, .upper-right-column {
+  padding: 30px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.upper-left-column ul, .upper-right-column ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-top: 20px;
+}
+
+.upper-left-column ul li, .upper-right-column ul li {
+  font-weight: bold;
+  font-size: 90%;
+  color: #444444;
+}
+
+#upper-left-column-heading, #upper-left-column-detail-link, #upper-right-column-heading, #upper-right-column-detail-link {
+  display: inline;
+}
+
+#upper-left-column-detail-link, #upper-right-column-detail-link {
+  font-size: 80%;
+  color: grey;
+}
+
+#upper-left-column-detail-link a::before, #upper-right-column-detail-link a::before {
+  content: "(";
+}
+
+#upper-left-column-detail-link a::after, #upper-right-column-detail-link a::after {
+  content: ")";
+}
+
+#upper-left-column-detail-link:hover, #upper-right-column-detail-link:hover {
+  font-weight: bold;
+  background-color: ##DFFFFF;
+}
+
+#upper-left-column-detail-link a, #upper-right-column-detail-link a {
+  color: grey;
+  text-decoration: none;
+}
+
+.main-container {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.bottom-middle-row {
+  clear: both;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.reference {
+  padding: 30px;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+
+.referenceSender {
+  overflow: hidden;
+}
+
+.referenceSenderImage {
+  width: 70px;
+  float: left;
+}
+
+.referenceSenderImage img {
+  max-width: 100%;
+  border-radius: 15px;
+  padding: 5px;
+}
+
+.referenceSenderDetails {
+  overflow: hidden;
+}
+
+.referenceSenderDetails p.RSDname {
+  font-weight: bold;
+  padding: 15px 5px 3px;
+  margin: 0px;
+}
+
+.referenceSenderDetails p.RSDdesignation {
+  padding: 0px 5px 10px;
+  margin: 0px;
+}
+
+
+/* Medium devices (tablets, 700px and up) */
+
+@media (min-width: 700px) {
+  .main-container {
+    overflow: hidden;
+  }
+  .upper-left-column {
+    float: left;
+    width: 45%;
+    text-align: right;
+  }
+  .upper-right-column {
+    float: right;
+    width: 45%;
+    text-align: left;
+  }
+  .bottom-middle-row {
+    max-width: 70%;
+  }
+}
