@@ -59,32 +59,24 @@ header {
   color: #444444;
 }
 
-#upper-left-column-heading, #upper-left-column-detail-link, #upper-right-column-heading, #upper-right-column-detail-link {
+#upper-left-column-heading, #upper-right-column-heading {
   display: inline;
 }
 
-#upper-left-column-detail-link, #upper-right-column-detail-link {
+/* #header-follow-link {
   font-size: 80%;
   color: grey;
 }
 
-#upper-left-column-detail-link a::before, #upper-right-column-detail-link a::before {
-  content: "(";
-}
-
-#upper-left-column-detail-link a::after, #upper-right-column-detail-link a::after {
-  content: ")";
-}
-
-#upper-left-column-detail-link:hover, #upper-right-column-detail-link:hover {
+#header-follow-link {
   font-weight: bold;
   background-color: ##DFFFFF;
 }
 
-#upper-left-column-detail-link a, #upper-right-column-detail-link a {
+#header-follow-link a {
   color: grey;
   text-decoration: none;
-}
+} */
 
 .main-container {
   text-align: center;
