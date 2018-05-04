@@ -14,6 +14,15 @@ body {
     margin: 0 auto;
 }
 
+.timelineTitle {
+  text-align: center;
+  width: 200px;
+  background-color: white;
+  border-radius: 8px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* The actual timeline (the vertical ruler) */
 .timeline::after {
     content: '';
@@ -24,6 +33,12 @@ body {
     bottom: 0;
     left: 50%;
     margin-left: -3px;
+    border-radius: 20px;
+    margin-top: -15px;
+}
+
+.timelineBlock {
+  margin-bottom: 50px;
 }
 
 /* Container around content */
